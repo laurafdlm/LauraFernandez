@@ -12,7 +12,7 @@ body {
 /* Esto es el inicio */
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   background-color: #191c32;
   color: #fff;
   position: relative; 
@@ -70,7 +70,7 @@ body {
 .main {
   margin: 0 auto;
   width: 80vw;
-  height: 90vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
@@ -393,11 +393,10 @@ h1 {
   color: #fff;
 }
 .habilidades-section {
-  width: 100vw;
-  height: 52vw;;
+  width: 70vw;
+  height: 42vw;;
   background-color: #191c32;
   color: #fff;
-  min-height: 75vh;
 }
 
 .portfolio-heading {
