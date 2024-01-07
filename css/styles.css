@@ -115,8 +115,8 @@ h1 {
 
 .main img {
   border:  7px solid rgba(80, 98, 98, 0.478);
-  width: 520px;
-  height: 620px;
+  width: 420px;
+  height: 520px;
   z-index: 1;
   margin-left: 50px; 
   opacity: 0.7;
@@ -393,8 +393,8 @@ h1 {
   color: #fff;
 }
 .habilidades-section {
-  width: 100vw;
-  height: 52vw;;
+  width: 90vw;
+  height: 42vw;;
   background-color: #191c32;
   color: #fff;
   min-height: 75vh;
