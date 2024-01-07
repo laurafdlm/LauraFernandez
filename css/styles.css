@@ -8,11 +8,13 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #191c32;
+  margin: 0;
 }
 /* Esto es el inicio */
 .wrapper {
   width: 100vw;
-  height: 110vh;
+  height: 100vh;
   background-color: #191c32;
   color: #fff;
   position: relative; 
@@ -115,8 +117,8 @@ h1 {
 
 .main img {
   border:  7px solid rgba(80, 98, 98, 0.478);
-  width: 420px;
-  height: 520px;
+  width: 520px;
+  height: 620px;
   z-index: 1;
   margin-left: 50px; 
   opacity: 0.7;
@@ -347,7 +349,12 @@ h1 {
 
 
 .habilidades-section {
-  padding: 3em;
+  width: 100vw;
+  height: 100vh; /* Cambiado a 100vh */
+  background-color: #191c32;
+  color: #fff;
+  min-height: 75vh;
+  overflow: hidden;
 }
 
 .container-habilidades {
@@ -393,10 +400,11 @@ h1 {
   color: #fff;
 }
 .habilidades-section {
-  width: 70vw;
-  height: 42vw;;
+  width: 100vw;
+  height: 52vw;;
   background-color: #191c32;
   color: #fff;
+  min-height: 75vh;
 }
 
 .portfolio-heading {
@@ -406,11 +414,6 @@ h1 {
   justify-content: center;
   padding: 5em;
 }
-  .main img {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
 
 
 .portfolio-heading h2,
@@ -609,7 +612,11 @@ h1 {
     text-align: center;
   }
 
-
+  .main img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
   .portfolio{
     width: 100vw;
     height: 130vw;;
@@ -666,6 +673,23 @@ h1 {
   
   .menu li a:hover {
     color:white;
+  }
+  .habilidades-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .habilidad {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%; /* Cambiado a 100% para dispositivos móviles */
+  }
+  .habilidad img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
   }
 
 }
