@@ -370,9 +370,9 @@ h1 {
 }
 
 .habilidad img {
-  width: 50px; 
+  width: 50px; /* Ajusta el tamaño según tus necesidades */
   height: 50px;
-  border-radius: 50%; 
+  border-radius: 50%; /* Para imágenes redondas, opcional */
   margin-bottom: 10px;
 }
 
@@ -393,8 +393,8 @@ h1 {
   color: #fff;
 }
 .habilidades-section {
-  width: 200vw;
-  height: 72vw;;
+  width: 100vw;
+  height: 52vw;;
   background-color: #191c32;
   color: #fff;
   min-height: 75vh;
